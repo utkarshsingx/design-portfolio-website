@@ -15,11 +15,17 @@ body {
   width: 100%;
 }
 
+#wrapper {
+  background-color: #1c1c19;
+  overflow-x: hidden;
+}
+
 #page1 {
-  height: 100vh;
+  height: 120vh;
   width: 100vw;
   background-color: #c4bdb3;
   position: relative;
+  overflow: hidden;
 }
 
 #nav {
@@ -160,30 +166,114 @@ body {
 
 #elem2 h3 {
   font-size: 35px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 20px;
   font-family: domain;
   color: #292828;
-  margin: 30px 0px;
-  font-weight: 200;
+  margin: 20px 0px;
+  font-weight: 250;
   padding: 10px;
 }
 
-#elem2 h6{
+#elem2 h6 {
   font-family: domain;
   font-size: 20px;
-  color: #2f2f2f; 
+  color: #2f2f2f;
   font-weight: 100;
 
   padding: 2px;
 }
 
-#elem2 h6 span{
+#elem2 h6 span {
   font-weight: 500;
   font-style: bold;
   color: black;
 }
 
-h1{
-  font-size: 750;
+#page1 h1 {
+  font-size: 510px;
+  letter-spacing: -15px;
+  font-family: canopee;
+  background-color: #1c1c19;
+  color: #c4bdb3;
+  font-weight: 100;
+  line-height: 420px;
+  width: 98%;
+  margin-left: 1%;
+  padding-left: 12px;
+}
+
+#page2 {
+  height: 150vh;
+  width: 100%;
+  background-color: #c4bdb3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 30px;
+}
+
+#page2-left {
+  height: 100%;
+  width: 35%;
+  /* background-color: #b73b12; */
+  padding-right: 30px;
+  border-right: 1px solid #222;
+}
+
+#page2-left h2 {
+  font-size: 100px;
+  font-family: canopee;
+  /* text-align: center; */
+  line-height: 120px;
+  font-weight: 200;
+  letter-spacing: -3px;
+}
+
+#page2-left h2 span {
+  font-size: 150px;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+
+#page2-left img {
+  height: 45%;
+  object-fit: cover;
+  width: 100%;
+  border: 1px solid #222;
+}
+
+#page2-left p {
+  font-size: 34px;
+  font-family: domain;
+  color: #1c1c19;
+  margin-top: 20px;
+}
+
+/* #page2-left p span{
+  font-size: 2em;
+  background-color: #1c1c19;
+  color: #c4bdb3;
+  padding: 7px;
+} */
+
+#page2-right {
+  height: 100%;
+  width: 70%;
+  padding: 0 40px;
+
+}
+
+#page2-right img{
+  height: 45%;
+  width: 100%;
+  object-fit: cover;
+  border: 1px solid #222;
+}
+
+#page2-right h1{
+  font-family: canopee;
+  font-size: 120px;
+  letter-spacing: -5px;
+  font-weight: 100;
 }
